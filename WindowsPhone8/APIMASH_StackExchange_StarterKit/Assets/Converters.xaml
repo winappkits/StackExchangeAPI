@@ -1,0 +1,15 @@
+﻿ <ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:converters="clr-namespace:APIMASH_StackExchange_StarterKit.Converters"
+    xmlns:micro="clr-namespace:Caliburn.Micro;assembly=Caliburn.Micro">
+
+    <micro:BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter"/>
+    <converters:StringVisibilityConverter x:Key="StringVisibilityConverter" />
+    <converters:StringFormatConverter x:Key="StringFormatConverter"/>
+    <converters:ToUppercaseConverter x:Key="ToUppercaseConverter"/>
+    <converters:ToLowercaseConverter x:Key="ToLowercaseConverter"/>
+    <converters:RelativeDateTimeConverter x:Key="RelativeDateTimeConverter" />
+    <converters:CollectionCountVisibilityConverter x:Key="CollectionCountVisibilityConverter" />
+
+</ResourceDictionary>
