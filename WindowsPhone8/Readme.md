@@ -2,7 +2,7 @@
 ##Date: 5.10.2013
 ##Version: v1.0.0
 ##Author(s): Michael Cummings
-##URL: http://github.com/winappkits/stackexchange
+##URL: http://github.com/winappkits/stackexchangeapi
 
 ----------
 ##Description
